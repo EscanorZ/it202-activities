@@ -1,0 +1,31 @@
+<html>
+  
+
+<head>
+  <body>
+    
+    
+    
+    <script>
+      var arr= [];
+      let apiEndpoint = "https://data.cityofchicago.org/resource/xzkq-xp2w.json?$LIMIT=5";
+   function rad(apiEndpoint){
+      fetch(apiEndpoint)
+      .then(response => {return response.json()})
+      .then(json => console.log(json))
+      .catch(err => alert(err))   
+   }
+      arr.push(rad(apiEndpoint))
+      
+      for( let v in apiEndpoint){
+             console.log(json)
+             document.createElement("p")
+             para.appendChild(v)
+          }
+    var para = document.createElement("p");
+        var node = document.createTextNode("name");
+       para.appendChild(node);
+    </script>
+  </body>
+</head>
+  </html>

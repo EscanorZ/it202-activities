@@ -1,0 +1,26 @@
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+  <body>
+    
+    
+    
+    <script>
+    let apiEndpoint = "https://data.cityofchicago.org/resource/xzkq-xp2w.json?$LIMIT=5";
+      
+      fetch(apiEndpoint)
+      .then(response => {return response.json()})
+      .then(json => console.log(json))
+      .catch(err => alert(err))   
+      for( let v in apiEndpoint){
+             console.log(json)
+          }
+          
+    </script>
+  </body>
+  
+  
+  
+</head>
+  </html>
